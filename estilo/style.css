@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(to bottom, black, white);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+header > h1{
+    padding: 40px 0px 20px;
+    font-variant: small-caps; /* text-transform: uppercase; */
+    font-size: 60px;
+    letter-spacing: 1.5px;
+    font-family: 'Passion One', cursive;
+}
+
+header > p{
+    padding-bottom: 40px;
+    font-size: 15px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-variant: small-caps;
+    font-family: 'Sigmar', cursive;
+    font-size: 25px;
+}
+
+section > p{
+    padding-bottom: 1.5em;
+}
+
+#sec1{
+    padding-top: 0;
+}
+
+.normal{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+
+.imagem > p{
+    width: 350px;
+    padding: 5px 0 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.623);
+}
+
+.imagem#img1 > p{
+    background-color: rgba(255, 255, 255, 0.61);
+    color: black;
+}
+
+.imagem#img2 > p{
+    background-color: rgba(0, 0, 0, 0.692);
+    color: white;
+    border: 1px solid white;
+}
+
+#img1{
+    background-image: url(/exercicios/desafios/desafio12/imagens/flor.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#img2{
+    background-image: url(/exercicios/desafios/desafio12/imagens/versos.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+footer{
+    padding: 30px 0 10px;
+    font-size: 15px;
+    background-image: linear-gradient(to top, black, white);
+    color: white;
+    text-align: center;
+}
